@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/style.css?v=3">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../css/custom.css">
+    <title>Curaduria BAQ - Transparencia</title>
+</head>
+<body style="
+min-height: 100vh; 
+margin: 0;
+display: grid;
+grid-template-rows: auto 1fr auto;">
+    <div id="nav-placeholder"></div>
+    <section id="transparencia" class="my-auto">
+        <p class="text-center title-text mb-5 mt-5">Transparencia</p>
+        <div class="container mb-5">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Información de la entidad
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                <button type="button" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#curaduria">Curaduría</button>
+                            </li>
+                            <li>
+                                <button type="button" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#mision">Misión</button>
+                            </li>
+                            <li>
+                                <button type="button" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#vision">Visión</button>
+                            </li>
+                            <li>
+                                <button type="button" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#organigrama">Organigrama</button>
+                            </li>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Normativa
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="descargas.html" target="_blank" class="text-black text-decoration-none">
+                                <li>Normativa</li>
+                            </a>
+                            <a href="descargas.html" target="_blank" class="text-black text-decoration-none">
+                                <li>Formatos</li>
+                            </a>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Trámites
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>
+                                <button type="button" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#construccion">Licencia de Construcción</button>
+                            </li>
+                            <li>
+                                <button type="button" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#subdivision">Licencia de Subdivisión</button>
+                            </li>
+                            <li>
+                                <button type="button" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#urbanismo">Licencia de Urbanismo</button>
+                            </li>
+                            <li>
+                                <button type="button" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#parcelacion">Licencia de Parcelación</button>
+                            </li>
+                            <li>
+                                <button type="button" class="bg-transparent border-0 p-0" data-bs-toggle="modal" data-bs-target="#reconocimiento">Reconocimiento de la Existencia de Edificaciónes</button>
+                            </li>
+                            <a href="../pdf/expensas-2022.pdf" target="_blank" class="text-black text-decoration-none">
+                                <li>Tarifas Vigentes Expensas</li>
+                            </a>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Servicios en Línea
+                    </button>
+                  </h2>
+                  <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <ul>
+                            <a href="solicitudes.html" target="_blank" class="text-black text-decoration-none">
+                                <li>Consulta de expedientes</li>
+                            </a>
+                            <a href="resoluciones.html" target="_blank" class="text-black text-decoration-none">
+                                <li>Consulta de resoluciones</li>
+                            </a>
+                            <a href="http://54.215.27.25/?id=3" target="_blank" class="text-black text-decoration-none">
+                                <li>Nuevas solicitudes</li>
+                            </a>
+                            <a href="pagos.html" target="_blank" class="text-black text-decoration-none">
+                                <li>Acreditación de pagos</li>
+                            </a>
+                            <a href="vallas.html" target="_blank" class="text-black text-decoration-none">
+                                <li>Fotos valla</li>
+                            </a>
+                            <a href="publicaciones.html" target="_blank" class="text-black text-decoration-none">
+                                <li>Nuestras notificaciones</li>
+                            </a>
+                            <a href="https://portalpagos.davivienda.com/#/comercio/116/LILIA%20MARGARITA%20AMAYA%20NUNEZ" target="_blank" class="text-black text-decoration-none">
+                                <li>Pagos en línea</li>
+                            </a>
+                            <a href="consultas.html" target="_blank" class="text-black text-decoration-none">
+                                <li>Resoluciones expedidas</li>
+                            </a>
+                        </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Medios de contacto
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    Carrera 58 # 68 – 32
+                                </li>
+                                <li>
+                                    <a href="mailto:info@curaduria2barranquilla.com" class="text-black text-decoration-none">info@curaduria2barranquilla.com</a>
+                                </li>
+                                <li>
+                                    Teléfonos: 605 3566182 - 605 3565033 - 605 3201916 - 605 3428374 - 605 3049880
+                                </li>
+                                <li>
+                                    Celular: 3166258944
+                                </li>
+                                <li>
+                                    Horario: Lunes a viernes de 8:00 a.m. a 12:00p.m. y de 1:00p.m. a 5:00 p.m.
+                                </li>
+                            </ul>
+                            <a href="contactos.html" class="btn btn-menu shadow px-lg-5 px-sm-5 px-md-5 px-5">Contactos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="pt-5 border-footer">
+            <div id="exampleSlider" class="w-100">
+                <div class="MS-content">
+                    <div class="item">
+                        <a href="https://idm.presidencia.gov.co/presidencia" target="_blank">
+                            <img src="../img/Rectangle 3.png" alt="Presidencia" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.barranquilla.gov.co/" target="_blank">
+                            <img src="../img/Rectangle 4.png" alt="Alcadía" class="img-fluid"> 
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.minvivienda.gov.co/" target="_blank">
+                            <img src="../img/Rectangle 5.png" alt="Minvivienda" class="img-fluid"> 
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.mincultura.gov.co/Paginas/default.aspx" target="_blank">
+                            <img src="../img/Rectangle 6.png" alt="Mincultura" class="img-fluid"> 
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.minambiente.gov.co/" target="_blank">
+                            <img src="../img/Rectangle 7.png" alt="Minambiente" class="img-fluid"> 
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://www.gov.co/" target="_blank">
+                            <img src="../img/Rectangle 8.png" alt="Gobierno" class="img-fluid"> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <div style="border: 1px solid #E5E5E5" class="mx-5"></div>
+        <div class="text-center pt-4 pb-1 text-copyright">
+            Horario: Lunes a viernes de 8:00 a.m. a 12:00p.m. y de 1:00p.m. a 5:00 p.m.
+        </div>
+        <div class="text-center pb-1 text-copyright">
+            Teléfonos: 605 3566182 - 605 3565033 - 605 3201916 - 605 3428374 - 605 3049880 <br> Celular: 3166258944
+        </div>
+        <div class="text-center pb-1 text-copyright">
+            Carrera 58 # 68 – 32 / <a href="mailto:info@curaduria2barranquilla.com" class="text-copyright text-decoration-none">info@curaduria2barranquilla.com</a>
+        </div>
+        <div class="text-center pb-4 text-copyright">
+            2021 © Copyright. Curaduria Urbana No. 2 de Barraquilla
+        </div>
+    </footer>
+
+    <!-- Construccion modal -->
+    <div class="modal fade" id="construccion" tabindex="-1" aria-labelledby="construccion" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content px-3 pt-3">
+                <div class="modal-body">
+                    <p class="text-center title-text mb-3">LICENCIA DE CONSTRUCCION</p>
+                    <div class="container">
+                        Es la autorización previa para desarrollar edificaciones en uno o varios predios, de conformidad con lo previsto en el Plan de Ordenamiento Territorial, los instrumentos que lo desarrollen y complementen y demás normatividad que regule la materia. Son modalidades de la licencia de construcción las siguientes:
+                    </div>
+                    <ol style="padding-left:1rem !important;">
+                        <li><a class="fw-bold text-decoration-none text-dark">Obra nueva:</a> Es la autorización para adelantar obras de edificación en terrenos no construidos.</li>
+                        <li><a class="fw-bold text-decoration-none text-dark">Ampliación:</a> Es la autorización para incrementar el área construida de una edificación existente, entendiéndose por área construida la parte edificada que corresponde a la suma de las superficies de los pisos, excluyendo azoteas y áreas sin cubrir o techar.</li>
+                        <li><a class="fw-bold text-decoration-none text-dark">Adecuación:</a> Es la autorización para cambiar el uso de una edificación o parte de ella, garantizando la permanencia del inmueble original. Cuando no se autoricen obras, solamente deberá cancelarse el (50%) del valor del cargo fijo "Cf" de la fórmula para la liquidación de expensas de que trata el artículo 109 del presente decreto, ante el curador urbano que adelante el trámite.</li>
+                        <li><a class="fw-bold text-decoration-none text-dark">Modificación:</a> Es la autorización para variar el diseño arquitectónico o estructural de una edificación existente, sin incrementar su área construida.</li>
+                        <li><a class="fw-bold text-decoration-none text-dark">Restauración:</a> Es la autorización para intervenir o reforzar la estructura de uno o varios inmuebles, con el objeto de acondicionarlos a niveles adecuados de seguridad sismo-resistente de acuerdo con los requisitos de la Ley 400 de 1997 o la norma que la adicione, modifique o sustituya y su reglamento.</li>
+                        <li><a class="fw-bold text-decoration-none text-dark">Reforzamiento Estructural:</a> Es la autorización para intervenir o reforzar la estructura de uno o varios inmuebles, con el objeto de acondicionarlos a niveles adecuados de seguridad sismo-resistente de acuerdo con los requisitos de la Ley 400 de 1997 o la norma que la adicione, modifique o sustituya y su reglamento.</li>
+                        <li><a class="fw-bold text-decoration-none text-dark">Demolición:</a> Es la autorización para derribar total o parcialmente una o varias edificaciones existentes en uno o varios predios y deberá concederse de manera simultánea con cualquiera otra modalidad de licencia de construcción, salvo cuando se trate de proyectos de renovación urbana, del cumplimiento de orden judicial o administrativa o de la ejecución de obras de infraestructura vial o de servicios públicos domiciliarios que se encuentren contemplados en el Plan de Ordenamiento Territorial o en los instrumentos que lo desarrollen y complementen.</li>
+                        <li><a class="fw-bold text-decoration-none text-dark">Cerramiento:</a> Es la autorización para encerrar de manera permanente un predio de propiedad privada.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-menu" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Subdivision modal -->
+    <div class="modal fade" id="subdivision" tabindex="-1" aria-labelledby="subdivision" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content px-3 pt-3">
+                <div class="modal-body">
+                    <p class="text-center title-text mb-3">LICENCIA DE SUBDIVISIÓN</p>
+                    <div class="container">
+                        Es la autorización previa para dividir uno o varios predios, ubicados en suelo rural, urbano o de expansión urbana, de conformidad con lo dispuesto en el Plan de Ordenamiento Territorial, los instrumentos que lo desarrollen y complementen y demás normatividad vigente aplicable a las anteriores clases de suelo. Son modalidades de la licencia de subdivisión las siguientes:
+                    </div>
+                    <ol style="padding-left:1rem !important;">
+                        <li><a class="fw-bold text-decoration-none text-dark">Subdivisión rural:</a> Es la autorización previa para dividir materialmente uno o varios predios ubicados en suelo rural o de expansión urbana de conformidad con el Plan de Ordenamiento Territorial y la normatividad agraria y ambiental aplicables a estas clases de suelo, garantizando la accesibilidad a cada uno de los predios resultantes.</li>
+                        <li><a class="fw-bold text-decoration-none text-dark">Subdivisión urbana:</a> Es la autorización para dividir materialmente uno o varios predios urbanizables no urbanizados ubicados en suelo urbano, de conformidad con las normas que para el efecto establezcan el Plan de Ordenamiento Territorial y los instrumentos que lo desarrollen o complementen.</li>
+                        <li><a class="fw-bold text-decoration-none text-dark">Reloteo:</a> Es la autorización para dividir, redistribuir o modificar el loteo de uno o más predios previamente urbanizados, de conformidad con las normas que para el efecto establezcan el Plan de Ordenamiento Territorial y los instrumentos que lo desarrollen y complementen.</li>
+                    </ol>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-menu" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Parcelacion modal -->
+    <div class="modal fade" id="parcelacion" tabindex="-1" aria-labelledby="parcelacion" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content px-3 pt-3">
+                <div class="modal-body">
+                    <p class="text-center title-text mb-3">LICENCIA DE PARCELACIÓN</p>
+                    <div class="container">
+                        Es la autorización previa para ejecutar en uno o varios predios localizados en suelo rural y suburbano, la creación de espacios públicos y privados, y la ejecución de obras para vías e infraestructura que garanticen la auto prestación de los servicios domiciliarios que permitan destinar los predios resultantes a los usos permitidos por el Plan de Ordenamiento Territorial, los instrumentos que lo desarrollen y complementen y la normatividad agraria y ambiental aplicable a esta clase de suelo.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-menu" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reconocimiento modal -->
+    <div class="modal fade" id="reconocimiento" tabindex="-1" aria-labelledby="reconocimiento" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content px-3 pt-3">
+                <div class="modal-body">
+                    <p class="text-center title-text mb-3">RECONOCIMIENTO DE EDIFICACIÓNES EXISTENTES</p>
+                    <div class="container">
+                        Es la actuación por medio de la cual se declara la existencia de las edificaciones que se construyeron sin obtener licencias siempre y cuando cumplan con el uso previsto por las normas urbanísticas vigentes y que estas obras hayan sido ejecutadas como mínimo cinco (5) años antes de la solicitud de reconocimiento. Este término no aplicara en aquellos casos en que el solicitante deba obtener el reconocimiento por orden judicial o administrativa.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-menu" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Urbanismo modal -->
+    <div class="modal fade" id="urbanismo" tabindex="-1" aria-labelledby="urbanismo" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content px-3 pt-3">
+                <div class="modal-body">
+                    <p class="text-center title-text mb-3">LICENCIA DE URBANISMO</p>
+                    <div class="container">
+                        Es la autorización previa para ejecutar en uno o varios predios localizados en suelo urbano, la creación de espacios públicos y privados y la construcción de las obras de infraestructura de servicios públicos y de vías que permitan la adecuación y dotación de estos terrenos para la futura construcción de edificaciones con destino a usos urbanos, de conformidad con el Plan de Ordenamiento Territorial, los instrumentos que lo desarrollen y complementen y demás normatividad vigente.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-menu" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mision modal -->
+    <div class="modal fade" id="mision" tabindex="-1" aria-labelledby="mision" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-3 pt-3">
+                <div class="modal-body">
+                    <p class="text-center title-text mb-3">MISIÓN</p>
+                    <div class="container">
+                        Garantizar la prestación del servicio de expedición de Licencias Urbanísticas de forma oportuna, efectiva e integral, certificando la normatividad vigente del Plan de Ordenamiento Territorial para satisfacer las necesidades y expectativas de los clientes.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-menu" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vision modal -->
+    <div class="modal fade" id="vision" tabindex="-1" aria-labelledby="vision" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content px-3 pt-3">
+                <div class="modal-body">
+                    <p class="text-center title-text mb-3">VISIÓN</p>
+                    <div class="container">
+                        Ser líder en la expedición de Licencias Urbanísticas, en donde el cliente se sienta apoyado, atendido y respetado por el equipo interdisciplinario de la Curaduría Urbana N° 2 de Barranquilla.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-menu" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Organigrama modal -->
+    <div class="modal fade" id="organigrama" tabindex="-1" aria-labelledby="organigrama" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content px-3 pt-3">
+                <div class="modal-body">
+                    <p class="text-center title-text mb-3">ORGANIGRAMA</p>
+                    <img src="../img/organigrama.jpeg" alt="" class="img-fluid d-block mx-auto">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-menu" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Curaduria modal -->
+    <div class="modal fade" id="curaduria" tabindex="-1" aria-labelledby="curaduria" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content px-3 pt-3">
+                <div class="modal-body">
+                    <p class="text-center title-text mb-3">CURADURIA</p>
+                    <div class="container">
+                        El curador urbano es un particular encargado de estudiar, tramitar y expedir licencias de parcelación, urbanización, construcción y subdivisión de predios, a petición del interesado en adelantar proyectos de esta índole. (Art. 73 Decreto 1469 de 2010).
+                        <br>
+                        <br>
+                        El curador urbano ejerce una función pública para la verificación del cumplimiento de las normas urbanísticas y de edificación vigentes, a través del otorgamiento de licencias de parcelación, urbanización, subdivisión y de construcción. (Art. 74 Decreto 1469 de 2010).
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-menu" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../js/multislider.min.js"></script>
+    <script>
+        $(function(){
+            $('#nav-placeholder').load('../components/nav_pages.html');
+        });
+        $(window).on('resize', function() {
+            var win = $(this);
+            if (win.width() < 1210 && win.width() > 993) {
+                $('#menu_licencia').addClass('col');
+                $('#menu_licencia').removeClass('col-auto');
+            } else {
+                $('#menu_licencia').removeClass('col');
+                $('#menu_licencia').addClass('col-auto');
+            }
+        });
+    </script>
+    <script>
+        $('#exampleSlider').multislider({
+            continuous: true,
+            hoverPause: false,
+            duration: 3000
+        });
+    </script>
+</body>
+</html>

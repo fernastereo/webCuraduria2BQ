@@ -1,0 +1,70 @@
+<!-- Comienza Menu -->
+<nav class="navbar navbar-expand-lg navbar-light shadow border-menu p-0">
+    <div class="container-fluid">
+        <a class="navbar-brand p-0" href="../index.html">
+            <img src="http://www.curaduria2barranquilla.com/nuevapagina/img/Logo2.png" alt="logo" width="90%" height="90%" style="margin-top:-20px; margin-bottom:-20px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="row w-100">
+                <ul class="navbar-nav ms-auto">
+                    <div class="col">
+                        <li class="nav-item text-center">
+                            <a class="nav-link active item-menu" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="nav-item text-center">
+                            <a class="nav-link item-menu" href="curaduria.html">Curaduría</a>
+                        </li>
+                    </div>
+                    <div class="col-auto" id="menu_licencia">
+                        <li class="nav-item text-center">
+                            <a class="nav-link item-menu" href="licencia_y_requisitos.html">Licencias y Requisitos</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="nav-item text-center">
+                            <a class="nav-link item-menu" href="transparencia.html">Transparencia</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="nav-item text-center">
+                            <a class="nav-link item-menu" href="descargas.html">Descargas</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="nav-item text-center">
+                            <a class="nav-link item-menu" href="contactos.html">Contactos</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="nav-item text-center">
+                            <a class="nav-link item-menu" href="publicaciones.html">Publicaciones</a>
+                        </li>
+                    </div>
+                    <div class="col">
+                        <li class="nav-item text-center">
+                            <a href="consultas.html" class="btn btn-menu shadow px-lg-5 px-sm-5 px-md-5 px-5">Consultas</a>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<script>
+    var win = $(this);
+    if (win.width() < 1210 && win.width() > 993) {
+        $('#menu_licencia').addClass('col');
+        $('#menu_licencia').removeClass('col-auto');
+    } else {
+        $('#menu_licencia').removeClass('col');
+        $('#menu_licencia').addClass('col-auto');
+    }
+</script>
+<!-- Termina el menu -->
