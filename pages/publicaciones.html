@@ -204,8 +204,7 @@ grid-template-rows: auto 1fr auto;">
                     $('#messageDate').modal('show');
                     params.success([]);
                 } else {
-                    var url = 'http://css-sas.com/apicuradurias/api/router.php/publicaciones/2bq/'+fechaInicial+'/'+fechaFinal;
-                    // var url = 'http://css-sas.com/apicuradurias/api/router.php/publicaciones/2bq/2021-01-01/2021-01-31';
+                    var url = 'http://curaduria2barranquilla.com/apicuraduria2bq/api/router.php/publicaciones/2bq/'+fechaInicial+'/'+fechaFinal;
                     console.log(url);
                     $.get(url).then(function (res) {
                         if (res.data) {
