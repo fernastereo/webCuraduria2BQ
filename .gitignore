@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+/apiCuraduria2bq/vendor/
+/apiCuraduria2bq/config.php
+
 # User-specific files
 *.rsuser
 *.suo
